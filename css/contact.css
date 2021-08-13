@@ -1,0 +1,68 @@
+.contact-content{
+    margin: 50px 50px;
+    height: 500px;
+}
+.contact-name{
+    margin: 20px 100px;
+    display: flex;
+    align-items: center;
+}
+h3{
+    color: var(--color1);
+}
+input{
+    margin-right:250px ;
+    margin-left: 4px;
+    width: 150px;
+    height: 20px;
+    padding: 4px;
+}
+input:hover{
+    border-color: var(--color1);
+    border-width: 2px;
+    border-radius: 4px;
+}
+textarea:hover{
+    border-color: var(--color1);
+    border-width: 2px;
+    border-radius: 4px;
+}
+#subject{
+    margin-right: 25px;
+    /* padding: 0px; */
+    width: 350px;
+    height:160px;
+    
+}
+.contact-subject{
+    margin: 20px 90px;
+    display:flex;
+    /* align-items: center;
+    justify-content: flex-start; */
+}
+.buton button{
+    margin-top: 50px;
+    margin-left: 850px;
+    
+height: 35px;
+width: 90px;
+border-radius: 6px;
+border-width: 2px;
+font-size: large;
+font-weight: 100;
+cursor: pointer;
+border-color:var(--color1);
+background-color:white;
+color:var(--color1);
+
+}
+.buton button a{
+    color:var(--color1);
+    text-decoration: none;
+}
+.buton button:hover{
+    color:white;
+    background-color:var(--color1);
+
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css ">
+    <link rel="stylesheet" href="css/util.css ">
+    <link rel="stylesheet" href="css/contact.css ">
+    <style>
+        .footer1{
+     height: 25px;
+     padding:10px 25px;
+     font-family: var(--font2) ;;
+     color:white;
+     text-align: center;
+     background-color:var(--color3);
+ }
+    </style>
+    <title>College Desk</title>
+</head>
+<body>
+    <header>College Desk</header>
+
+    <nav class=" navigation ">
+        <div class="nav-left">
+            <ul>
+                <li><a href="/index.html"> Home</a></li>
+                <li><a href="/branch.html">Branch</a></li>
+                <!-- <li><a href="/schedule.html">Schedule</a></li> -->
+                <li><a href="/previousyear.html">Previous Year Papers</a></li>
+                <li class="current-page"><a href="/">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+        </div>
+    </nav>
+    <hr>
+    <div class="contact-content">
+        <form action="/mail/index.php"method="post"id="">
+            <div class="contact-name"> 
+                <h3>Name :</h3> 
+                 <input name="name" type="text" placeholder="name" required>
+                 <h3>email Id :</h3>
+                 <input name="email" type="email" placeholder="xyz@gmail.com" required>
+                </div>
+                <br><br><br>
+                <div class="contact-subject">
+                 <h3>Subject :</h3>
+                 <input name="subject" type="text" placeholder="subject" required>
+                 <h3>Question :</h3>
+                 <textarea name="message" id="" cols="30" rows="10"  placeholder="Ask your Question ?" style="padding: 4px;" required></textarea>
+                </div>
+                <div class="buton">
+                    <button type="submit" value="Send">Send</button>
+                </div>
+        </form>
+    </div>
+    
+    <div class="footer1">
+        <p>Copyright&copy; All rights are reserved by Anish Guduri</p>
+    </div>
+</body>
+</html>

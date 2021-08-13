@@ -1,0 +1,59 @@
+.form-inputs{
+
+    height: 250px;
+    margin:50px  50px;
+    display: flex;
+    /* background-color: rgb(162, 246, 252); */
+    font-family:var(--font2);
+    color: var(--color1);
+}
+.input-elements{
+    padding-top: 80px;
+    margin-left: 90px;
+    font-size: 18px;
+     align-items: center;
+    justify-content:left; 
+    display: flex;
+}
+label+select{
+    margin-left:10px;
+   
+}
+.input-elements select+label{
+    margin-left: 150px;
+}
+select{
+    width: 350px;
+    margin-top: 5px;
+    font-size: 18px;
+    -webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+    background-image: url("/img/outline_arrow_drop_down_black_24dp.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 8px;
+}
+#selct-first{
+    color: rgba(0, 0, 0, 0.342);
+}
+
+.buton button{
+    margin-top: 90px;
+    margin-left: 570px;
+height: 35px;
+width: 90px;
+border-radius: 6px;
+border-width: 1.5px;
+font-size: large;
+font-weight: 100;
+cursor: pointer;
+transition: all 0.1s ease-in-out;
+border-color: black;
+color: black;
+
+}
+.buton button:hover{
+    background-color: var(--color1);
+    color: white;
+}

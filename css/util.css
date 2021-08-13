@@ -1,0 +1,44 @@
+:root{
+    --main-color1:black;
+}
+.max-width-1{
+    max-width: 95vw; 
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.font1{
+    font-family: sans-serif;
+}
+.font2{
+    font-family: cursive;
+}
+.btn{
+    padding: 5px 9px;
+    border-color: black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 7, 0);
+}
+
+/* .form-input{
+    padding: 5px 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 12px;
+    font-family: sans-serif;
+} */
