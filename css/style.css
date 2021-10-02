@@ -27,6 +27,11 @@ header{
     -o-background-size: cover;
     background-size: cover;
   } */
+html,
+body {
+  font-family: 'Hahmlet', serif;
+  color: #111;
+}
 hr{
     border: 2px solid var(--color1);
     background-color:var(--color1) ;
