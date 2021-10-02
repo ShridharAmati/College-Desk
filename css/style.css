@@ -31,7 +31,11 @@ hr{
     border: 2px solid var(--color1);
     background-color:var(--color1) ;
 }
-
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+}
 .navigation{
     height:36px;
     background-color:var(--color1);
